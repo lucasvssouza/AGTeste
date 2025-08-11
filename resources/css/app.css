@@ -1,0 +1,23 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "datatables.net-bs5/css/dataTables.bootstrap5.min.css";
+@import "sweetalert2/dist/sweetalert2.min.css";
+
+/* Faz o footer sempre ficar no final */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* ocupa o espaço restante */
+}
+
+footer {
+    font-size: 0.9rem;
+}
